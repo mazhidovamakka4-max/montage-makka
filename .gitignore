@@ -1,0 +1,17 @@
+# Исходники и рендеры видео (тяжёлые, не храним в репозитории)
+videos/**/*.mp4
+videos/**/*.mov
+videos/**/*.MOV
+videos/**/*.wav
+videos/**/*.mp3
+assets/music/*.mp3
+assets/music/*.wav
+
+# Системное
+.DS_Store
+node_modules/
+__pycache__/
+*.log
+
+# Шрифты оставляем в репозитории (нужны для монтажа), поэтому их не игнорируем
+!assets/fonts/*
